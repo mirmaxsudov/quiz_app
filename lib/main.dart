@@ -4,10 +4,8 @@ void main() {
   runApp(
     MaterialApp(
       home: Scaffold(
-        appBar: AppBar(
-          title: const Text("Text"),
-
-        ),
+        appBar: AppBar(),
+        body: const Center(),
       ),
     ),
   );
